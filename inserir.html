@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            text-align: center;
+            background-color: #e7e7e7;
+        }
+    </style>
+    <title>Banco de Dados</title>
+</head>
+<body>
+    <h1>Inserir</h1>
+    <form action="acao_inserir.php" method="post">
+        <label>Nome:</label>
+        <input type="text" name="nome">
+        <br><br>
+
+        <label>Apelido:</label>
+        <input type="text" name="apelido">
+        <br><br>
+
+        <label>Data de Nascimento:</label>
+        <input type="date" name="nascimento">
+        <br><br>
+
+        <label>Ativo?</label>
+        <input type="checkbox" name="ativo" value="1">
+        <br><br>
+
+        <input type="submit" value="Salvar">
+    </form>
+    <br>
+
+    <button onclick="window.location='inicial.html'">Página Inicial</button>
+    <button onclick="window.location='acao_visualizar'">Visualizar</button>
+</body>
+</html>
